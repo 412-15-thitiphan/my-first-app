@@ -116,7 +116,7 @@ ans4 = st.text_input(
     "ข้อ 4: `_ _ _ _ _ _ _` (ความกล้าหาญ)",
     value=st.session_state.ans4_val,
 )
-ans4 = st.text_input(
+ans5 = st.text_input(
     "ข้อ 5: `_ _ _ _ _ _ _ _ _` (v.ส่งสัญญาณ n.ถ่ายทอดสด)",
     value=st.session_state.ans5_val,
 )
