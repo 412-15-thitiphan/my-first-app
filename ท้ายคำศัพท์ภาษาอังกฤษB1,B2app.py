@@ -67,7 +67,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
     else:
         st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
       # ตรวจข้อ 4
-    if u_ans4 == "broadcast":
+    if u_ans4 == "operation":
         st.success("✅ ข้อ 5: ถูกต้อง")
         score += 1
     else:
@@ -117,7 +117,7 @@ ans4 = st.text_input(
     value=st.session_state.ans4_val,
 )
 ans5 = st.text_input(
-    "ข้อ 5: `_ _ _ _ _ _ _ _ _` (v.ส่งสัญญาณ n.ถ่ายทอดสด)",
+    "ข้อ 5: `_ _ _ _ _ _ _ _ _` (ปฏิบัติการ)",
     value=st.session_state.ans5_val,
 )
 
