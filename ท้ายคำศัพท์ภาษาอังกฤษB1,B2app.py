@@ -78,6 +78,8 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
 
     if score == 5:
         st.success("🎉 You win!")
+    if score == 2-4:
+        st.success("👍 You good!")
     else:
         st.error("💀 You lose!")
 
